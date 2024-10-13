@@ -1,0 +1,192 @@
+[0.000000] (-) TimerEvent: {}
+[0.000116] (-) JobUnselected: {'identifier': 'sentry_description'}
+[0.000144] (coordinate_transformer) JobQueued: {'identifier': 'coordinate_transformer', 'dependencies': OrderedDict()}
+[0.000202] (image_sub_pub) JobQueued: {'identifier': 'image_sub_pub', 'dependencies': OrderedDict()}
+[0.000228] (coordinate_transformer) JobStarted: {'identifier': 'coordinate_transformer'}
+[0.003865] (image_sub_pub) JobStarted: {'identifier': 'image_sub_pub'}
+[0.005642] (coordinate_transformer) JobProgress: {'identifier': 'coordinate_transformer', 'progress': 'cmake'}
+[0.006718] (coordinate_transformer) JobProgress: {'identifier': 'coordinate_transformer', 'progress': 'build'}
+[0.006783] (coordinate_transformer) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zhizhi/exam2/build/coordinate_transformer', '--', '-j20', '-l20'], 'cwd': '/home/zhizhi/exam2/build/coordinate_transformer', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'zhizhi'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zhizhi'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1925'), ('SYSTEMD_EXEC_PID', '2091'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '17797'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zhizhi'), ('JOURNAL_STREAM', '8:12630'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zhizhi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zhizhi/.local/bin:/opt/ros/humble/bin:/home/zhizhi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zhizhi-laptop:@/tmp/.ICE-unix/2067,unix/zhizhi-laptop:/tmp/.ICE-unix/2067'), ('INVOCATION_ID', '8002237474d245efa6f99f979c495807'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JEEJV2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cc25e6096c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zhizhi/exam2/build/coordinate_transformer'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/zhizhi/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.009851] (image_sub_pub) JobProgress: {'identifier': 'image_sub_pub', 'progress': 'cmake'}
+[0.011123] (image_sub_pub) JobProgress: {'identifier': 'image_sub_pub', 'progress': 'build'}
+[0.011154] (image_sub_pub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zhizhi/exam2/build/image_sub_pub', '--', '-j20', '-l20'], 'cwd': '/home/zhizhi/exam2/build/image_sub_pub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'zhizhi'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zhizhi'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1925'), ('SYSTEMD_EXEC_PID', '2091'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '17797'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zhizhi'), ('JOURNAL_STREAM', '8:12630'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zhizhi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zhizhi/.local/bin:/opt/ros/humble/bin:/home/zhizhi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zhizhi-laptop:@/tmp/.ICE-unix/2067,unix/zhizhi-laptop:/tmp/.ICE-unix/2067'), ('INVOCATION_ID', '8002237474d245efa6f99f979c495807'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JEEJV2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cc25e6096c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zhizhi/exam2/build/image_sub_pub'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/zhizhi/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.051902] (coordinate_transformer) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.052091] (image_sub_pub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099540] (-) TimerEvent: {}
+[0.136256] (image_sub_pub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.136477] (coordinate_transformer) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.155064] (coordinate_transformer) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.155210] (image_sub_pub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.156482] (coordinate_transformer) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.156713] (image_sub_pub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.160242] (coordinate_transformer) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.160375] (image_sub_pub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.166470] (coordinate_transformer) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.166602] (image_sub_pub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.174037] (coordinate_transformer) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.174171] (image_sub_pub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.194301] (image_sub_pub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.194434] (coordinate_transformer) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.195047] (coordinate_transformer) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.195228] (image_sub_pub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.199762] (-) TimerEvent: {}
+[0.261056] (coordinate_transformer) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.267225] (image_sub_pub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.299894] (-) TimerEvent: {}
+[0.300822] (image_sub_pub) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.300944] (coordinate_transformer) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.309369] (coordinate_transformer) StdoutLine: {'line': b'-- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.311912] (coordinate_transformer) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.319808] (image_sub_pub) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.328360] (image_sub_pub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.363185] (coordinate_transformer) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[0.365225] (coordinate_transformer) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.366295] (coordinate_transformer) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.367126] (coordinate_transformer) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[0.375886] (image_sub_pub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.376090] (image_sub_pub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.376155] (image_sub_pub) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.376627] (image_sub_pub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.376933] (image_sub_pub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.376999] (image_sub_pub) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.377134] (image_sub_pub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.377856] (image_sub_pub) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.387334] (image_sub_pub) StdoutLine: {'line': b'-- Generating done\n'}
+[0.388011] (coordinate_transformer) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.388750] (image_sub_pub) StdoutLine: {'line': b'-- Build files have been written to: /home/zhizhi/exam2/build/image_sub_pub\n'}
+[0.399985] (-) TimerEvent: {}
+[0.411762] (image_sub_pub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target image_sub_pub_node\x1b[0m\n'}
+[0.431864] (coordinate_transformer) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.432081] (coordinate_transformer) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.432153] (coordinate_transformer) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.432222] (coordinate_transformer) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.432314] (image_sub_pub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/image_sub_pub_node.dir/src/image_sub_pub.cpp.o\x1b[0m\n'}
+[0.432423] (coordinate_transformer) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.432488] (coordinate_transformer) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.432718] (coordinate_transformer) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.433012] (coordinate_transformer) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.440727] (coordinate_transformer) StdoutLine: {'line': b'-- Generating done\n'}
+[0.441877] (coordinate_transformer) StdoutLine: {'line': b'-- Build files have been written to: /home/zhizhi/exam2/build/coordinate_transformer\n'}
+[0.459853] (coordinate_transformer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target coordinate_transformer\x1b[0m\n'}
+[0.473194] (coordinate_transformer) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/coordinate_transformer.dir/src/coordinate_transformer.cpp.o\x1b[0m\n'}
+[0.500119] (-) TimerEvent: {}
+[0.600379] (-) TimerEvent: {}
+[0.700648] (-) TimerEvent: {}
+[0.801027] (-) TimerEvent: {}
+[0.901403] (-) TimerEvent: {}
+[1.001642] (-) TimerEvent: {}
+[1.101994] (-) TimerEvent: {}
+[1.202287] (-) TimerEvent: {}
+[1.302549] (-) TimerEvent: {}
+[1.402941] (-) TimerEvent: {}
+[1.503332] (-) TimerEvent: {}
+[1.603721] (-) TimerEvent: {}
+[1.704008] (-) TimerEvent: {}
+[1.804405] (-) TimerEvent: {}
+[1.904788] (-) TimerEvent: {}
+[2.005163] (-) TimerEvent: {}
+[2.105462] (-) TimerEvent: {}
+[2.205854] (-) TimerEvent: {}
+[2.306249] (-) TimerEvent: {}
+[2.406635] (-) TimerEvent: {}
+[2.507013] (-) TimerEvent: {}
+[2.607408] (-) TimerEvent: {}
+[2.707798] (-) TimerEvent: {}
+[2.808179] (-) TimerEvent: {}
+[2.908564] (-) TimerEvent: {}
+[3.008955] (-) TimerEvent: {}
+[3.109347] (-) TimerEvent: {}
+[3.209724] (-) TimerEvent: {}
+[3.310106] (-) TimerEvent: {}
+[3.410505] (-) TimerEvent: {}
+[3.510893] (-) TimerEvent: {}
+[3.611249] (-) TimerEvent: {}
+[3.711536] (-) TimerEvent: {}
+[3.811791] (-) TimerEvent: {}
+[3.912156] (-) TimerEvent: {}
+[4.012396] (-) TimerEvent: {}
+[4.112620] (-) TimerEvent: {}
+[4.212883] (-) TimerEvent: {}
+[4.313238] (-) TimerEvent: {}
+[4.413462] (-) TimerEvent: {}
+[4.513718] (-) TimerEvent: {}
+[4.613975] (-) TimerEvent: {}
+[4.714303] (-) TimerEvent: {}
+[4.814524] (-) TimerEvent: {}
+[4.914782] (-) TimerEvent: {}
+[5.015107] (-) TimerEvent: {}
+[5.115364] (-) TimerEvent: {}
+[5.215587] (-) TimerEvent: {}
+[5.315911] (-) TimerEvent: {}
+[5.329248] (coordinate_transformer) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable coordinate_transformer\x1b[0m\n'}
+[5.416039] (-) TimerEvent: {}
+[5.516392] (-) TimerEvent: {}
+[5.604076] (coordinate_transformer) StdoutLine: {'line': b'[100%] Built target coordinate_transformer\n'}
+[5.610865] (coordinate_transformer) CommandEnded: {'returncode': 0}
+[5.616463] (-) TimerEvent: {}
+[5.628940] (coordinate_transformer) JobProgress: {'identifier': 'coordinate_transformer', 'progress': 'install'}
+[5.633920] (coordinate_transformer) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zhizhi/exam2/build/coordinate_transformer'], 'cwd': '/home/zhizhi/exam2/build/coordinate_transformer', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'zhizhi'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zhizhi'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1925'), ('SYSTEMD_EXEC_PID', '2091'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '17797'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zhizhi'), ('JOURNAL_STREAM', '8:12630'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zhizhi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zhizhi/.local/bin:/opt/ros/humble/bin:/home/zhizhi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zhizhi-laptop:@/tmp/.ICE-unix/2067,unix/zhizhi-laptop:/tmp/.ICE-unix/2067'), ('INVOCATION_ID', '8002237474d245efa6f99f979c495807'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JEEJV2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cc25e6096c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zhizhi/exam2/build/coordinate_transformer'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/zhizhi/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.639601] (coordinate_transformer) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.639892] (coordinate_transformer) StdoutLine: {'line': b'-- Installing: /home/zhizhi/exam2/install/coordinate_transformer/lib/coordinate_transformer/coordinate_transformer\n'}
+[5.641990] (coordinate_transformer) StdoutLine: {'line': b'-- Set runtime path of "/home/zhizhi/exam2/install/coordinate_transformer/lib/coordinate_transformer/coordinate_transformer" to ""\n'}
+[5.642042] (coordinate_transformer) StdoutLine: {'line': b'-- Up-to-date: /home/zhizhi/exam2/install/coordinate_transformer/share/ament_index/resource_index/package_run_dependencies/coordinate_transformer\n'}
+[5.642084] (coordinate_transformer) StdoutLine: {'line': b'-- Up-to-date: /home/zhizhi/exam2/install/coordinate_transformer/share/ament_index/resource_index/parent_prefix_path/coordinate_transformer\n'}
+[5.642124] (coordinate_transformer) StdoutLine: {'line': b'-- Installing: /home/zhizhi/exam2/install/coordinate_transformer/share/coordinate_transformer/environment/ament_prefix_path.sh\n'}
+[5.642154] (coordinate_transformer) StdoutLine: {'line': b'-- Installing: /home/zhizhi/exam2/install/coordinate_transformer/share/coordinate_transformer/environment/ament_prefix_path.dsv\n'}
+[5.642184] (coordinate_transformer) StdoutLine: {'line': b'-- Installing: /home/zhizhi/exam2/install/coordinate_transformer/share/coordinate_transformer/environment/path.sh\n'}
+[5.642225] (coordinate_transformer) StdoutLine: {'line': b'-- Installing: /home/zhizhi/exam2/install/coordinate_transformer/share/coordinate_transformer/environment/path.dsv\n'}
+[5.642273] (coordinate_transformer) StdoutLine: {'line': b'-- Up-to-date: /home/zhizhi/exam2/install/coordinate_transformer/share/coordinate_transformer/local_setup.bash\n'}
+[5.642303] (coordinate_transformer) StdoutLine: {'line': b'-- Up-to-date: /home/zhizhi/exam2/install/coordinate_transformer/share/coordinate_transformer/local_setup.sh\n'}
+[5.642333] (coordinate_transformer) StdoutLine: {'line': b'-- Up-to-date: /home/zhizhi/exam2/install/coordinate_transformer/share/coordinate_transformer/local_setup.zsh\n'}
+[5.642393] (coordinate_transformer) StdoutLine: {'line': b'-- Installing: /home/zhizhi/exam2/install/coordinate_transformer/share/coordinate_transformer/local_setup.dsv\n'}
+[5.642448] (coordinate_transformer) StdoutLine: {'line': b'-- Installing: /home/zhizhi/exam2/install/coordinate_transformer/share/coordinate_transformer/package.dsv\n'}
+[5.642477] (coordinate_transformer) StdoutLine: {'line': b'-- Up-to-date: /home/zhizhi/exam2/install/coordinate_transformer/share/ament_index/resource_index/packages/coordinate_transformer\n'}
+[5.642506] (coordinate_transformer) StdoutLine: {'line': b'-- Up-to-date: /home/zhizhi/exam2/install/coordinate_transformer/share/coordinate_transformer/cmake/coordinate_transformerConfig.cmake\n'}
+[5.642536] (coordinate_transformer) StdoutLine: {'line': b'-- Up-to-date: /home/zhizhi/exam2/install/coordinate_transformer/share/coordinate_transformer/cmake/coordinate_transformerConfig-version.cmake\n'}
+[5.642568] (coordinate_transformer) StdoutLine: {'line': b'-- Installing: /home/zhizhi/exam2/install/coordinate_transformer/share/coordinate_transformer/package.xml\n'}
+[5.643651] (coordinate_transformer) CommandEnded: {'returncode': 0}
+[5.670888] (coordinate_transformer) JobEnded: {'identifier': 'coordinate_transformer', 'rc': 0}
+[5.716557] (-) TimerEvent: {}
+[5.816799] (-) TimerEvent: {}
+[5.917106] (-) TimerEvent: {}
+[6.017365] (-) TimerEvent: {}
+[6.117578] (-) TimerEvent: {}
+[6.217828] (-) TimerEvent: {}
+[6.318134] (-) TimerEvent: {}
+[6.418455] (-) TimerEvent: {}
+[6.518787] (-) TimerEvent: {}
+[6.619141] (-) TimerEvent: {}
+[6.719397] (-) TimerEvent: {}
+[6.819627] (-) TimerEvent: {}
+[6.882076] (image_sub_pub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable image_sub_pub_node\x1b[0m\n'}
+[6.919815] (-) TimerEvent: {}
+[7.020071] (-) TimerEvent: {}
+[7.120409] (-) TimerEvent: {}
+[7.220764] (-) TimerEvent: {}
+[7.321118] (-) TimerEvent: {}
+[7.392465] (image_sub_pub) StdoutLine: {'line': b'[100%] Built target image_sub_pub_node\n'}
+[7.402073] (image_sub_pub) CommandEnded: {'returncode': 0}
+[7.421312] (-) TimerEvent: {}
+[7.422949] (image_sub_pub) JobProgress: {'identifier': 'image_sub_pub', 'progress': 'install'}
+[7.422997] (image_sub_pub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zhizhi/exam2/build/image_sub_pub'], 'cwd': '/home/zhizhi/exam2/build/image_sub_pub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'zhizhi'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zhizhi'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1925'), ('SYSTEMD_EXEC_PID', '2091'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '17797'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zhizhi'), ('JOURNAL_STREAM', '8:12630'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zhizhi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zhizhi/.local/bin:/opt/ros/humble/bin:/home/zhizhi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zhizhi-laptop:@/tmp/.ICE-unix/2067,unix/zhizhi-laptop:/tmp/.ICE-unix/2067'), ('INVOCATION_ID', '8002237474d245efa6f99f979c495807'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JEEJV2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cc25e6096c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zhizhi/exam2/build/image_sub_pub'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/zhizhi/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.428908] (image_sub_pub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.429247] (image_sub_pub) StdoutLine: {'line': b'-- Installing: /home/zhizhi/exam2/install/image_sub_pub/lib/image_sub_pub/image_sub_pub_node\n'}
+[7.432313] (image_sub_pub) StdoutLine: {'line': b'-- Set runtime path of "/home/zhizhi/exam2/install/image_sub_pub/lib/image_sub_pub/image_sub_pub_node" to ""\n'}
+[7.432362] (image_sub_pub) StdoutLine: {'line': b'-- Up-to-date: /home/zhizhi/exam2/install/image_sub_pub/share/ament_index/resource_index/package_run_dependencies/image_sub_pub\n'}
+[7.432395] (image_sub_pub) StdoutLine: {'line': b'-- Up-to-date: /home/zhizhi/exam2/install/image_sub_pub/share/ament_index/resource_index/parent_prefix_path/image_sub_pub\n'}
+[7.432428] (image_sub_pub) StdoutLine: {'line': b'-- Installing: /home/zhizhi/exam2/install/image_sub_pub/share/image_sub_pub/environment/ament_prefix_path.sh\n'}
+[7.432596] (image_sub_pub) StdoutLine: {'line': b'-- Installing: /home/zhizhi/exam2/install/image_sub_pub/share/image_sub_pub/environment/ament_prefix_path.dsv\n'}
+[7.432678] (image_sub_pub) StdoutLine: {'line': b'-- Installing: /home/zhizhi/exam2/install/image_sub_pub/share/image_sub_pub/environment/path.sh\n'}
+[7.432743] (image_sub_pub) StdoutLine: {'line': b'-- Installing: /home/zhizhi/exam2/install/image_sub_pub/share/image_sub_pub/environment/path.dsv\n'}
+[7.432803] (image_sub_pub) StdoutLine: {'line': b'-- Up-to-date: /home/zhizhi/exam2/install/image_sub_pub/share/image_sub_pub/local_setup.bash\n'}
+[7.432861] (image_sub_pub) StdoutLine: {'line': b'-- Up-to-date: /home/zhizhi/exam2/install/image_sub_pub/share/image_sub_pub/local_setup.sh\n'}
+[7.432918] (image_sub_pub) StdoutLine: {'line': b'-- Up-to-date: /home/zhizhi/exam2/install/image_sub_pub/share/image_sub_pub/local_setup.zsh\n'}
+[7.432977] (image_sub_pub) StdoutLine: {'line': b'-- Installing: /home/zhizhi/exam2/install/image_sub_pub/share/image_sub_pub/local_setup.dsv\n'}
+[7.433036] (image_sub_pub) StdoutLine: {'line': b'-- Installing: /home/zhizhi/exam2/install/image_sub_pub/share/image_sub_pub/package.dsv\n'}
+[7.433114] (image_sub_pub) StdoutLine: {'line': b'-- Up-to-date: /home/zhizhi/exam2/install/image_sub_pub/share/ament_index/resource_index/packages/image_sub_pub\n'}
+[7.433180] (image_sub_pub) StdoutLine: {'line': b'-- Up-to-date: /home/zhizhi/exam2/install/image_sub_pub/share/image_sub_pub/cmake/image_sub_pubConfig.cmake\n'}
+[7.433250] (image_sub_pub) StdoutLine: {'line': b'-- Up-to-date: /home/zhizhi/exam2/install/image_sub_pub/share/image_sub_pub/cmake/image_sub_pubConfig-version.cmake\n'}
+[7.433316] (image_sub_pub) StdoutLine: {'line': b'-- Installing: /home/zhizhi/exam2/install/image_sub_pub/share/image_sub_pub/package.xml\n'}
+[7.434004] (image_sub_pub) CommandEnded: {'returncode': 0}
+[7.461099] (image_sub_pub) JobEnded: {'identifier': 'image_sub_pub', 'rc': 0}
+[7.461807] (-) EventReactorShutdown: {}
