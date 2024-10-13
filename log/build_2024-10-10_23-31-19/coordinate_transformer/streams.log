@@ -1,0 +1,76 @@
+[0.012s] Invoking command in '/home/zhizhi/exam2/build/coordinate_transformer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zhizhi/exam2/src/coordinate_transformer -DCMAKE_INSTALL_PREFIX=/home/zhizhi/exam2/install/coordinate_transformer
+[0.069s] -- The C compiler identification is GNU 11.4.0
+[0.121s] -- The CXX compiler identification is GNU 11.4.0
+[0.128s] -- Detecting C compiler ABI info
+[0.203s] -- Detecting C compiler ABI info - done
+[0.211s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.211s] -- Detecting C compile features
+[0.212s] -- Detecting C compile features - done
+[0.215s] -- Detecting CXX compiler ABI info
+[0.299s] -- Detecting CXX compiler ABI info - done
+[0.305s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.305s] -- Detecting CXX compile features
+[0.305s] -- Detecting CXX compile features - done
+[0.307s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.447s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.536s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.563s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.565s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.572s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.580s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.592s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.630s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.633s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.712s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.736s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.772s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.778s] -- Looking for pthread.h
+[0.844s] -- Looking for pthread.h - found
+[0.844s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.915s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.916s] -- Found Threads: TRUE  
+[0.951s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.961s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[0.970s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.034s] -- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.041s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.042s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.042s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.043s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.072s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.137s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.137s] -- Configured cppcheck include dirs: 
+[1.137s] -- Configured cppcheck exclude dirs and/or files: 
+[1.137s] -- Added test 'lint_cmake' to check CMake code style
+[1.138s] -- Added test 'uncrustify' to check C / C++ code style
+[1.138s] -- Configured uncrustify additional arguments: 
+[1.138s] -- Added test 'xmllint' to check XML markup files
+[1.139s] -- Configuring done
+[1.148s] -- Generating done
+[1.150s] -- Build files have been written to: /home/zhizhi/exam2/build/coordinate_transformer
+[1.160s] Invoked command in '/home/zhizhi/exam2/build/coordinate_transformer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zhizhi/exam2/src/coordinate_transformer -DCMAKE_INSTALL_PREFIX=/home/zhizhi/exam2/install/coordinate_transformer
+[1.162s] Invoking command in '/home/zhizhi/exam2/build/coordinate_transformer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zhizhi/exam2/build/coordinate_transformer -- -j20 -l20
+[1.210s] [ 50%] [32mBuilding CXX object CMakeFiles/coordinate_transformer.dir/src/coordinate_transformer.cpp.o[0m
+[8.722s] [100%] [32m[1mLinking CXX executable coordinate_transformer[0m
+[9.162s] [100%] Built target coordinate_transformer
+[9.174s] Invoked command in '/home/zhizhi/exam2/build/coordinate_transformer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zhizhi/exam2/build/coordinate_transformer -- -j20 -l20
+[9.198s] Invoking command in '/home/zhizhi/exam2/build/coordinate_transformer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zhizhi/exam2/build/coordinate_transformer
+[9.208s] -- Install configuration: ""
+[9.208s] -- Installing: /home/zhizhi/exam2/install/coordinate_transformer/lib/coordinate_transformer/coordinate_transformer
+[9.210s] -- Set runtime path of "/home/zhizhi/exam2/install/coordinate_transformer/lib/coordinate_transformer/coordinate_transformer" to ""
+[9.211s] -- Installing: /home/zhizhi/exam2/install/coordinate_transformer/share/ament_index/resource_index/package_run_dependencies/coordinate_transformer
+[9.211s] -- Installing: /home/zhizhi/exam2/install/coordinate_transformer/share/ament_index/resource_index/parent_prefix_path/coordinate_transformer
+[9.211s] -- Installing: /home/zhizhi/exam2/install/coordinate_transformer/share/coordinate_transformer/environment/ament_prefix_path.sh
+[9.211s] -- Installing: /home/zhizhi/exam2/install/coordinate_transformer/share/coordinate_transformer/environment/ament_prefix_path.dsv
+[9.211s] -- Installing: /home/zhizhi/exam2/install/coordinate_transformer/share/coordinate_transformer/environment/path.sh
+[9.211s] -- Installing: /home/zhizhi/exam2/install/coordinate_transformer/share/coordinate_transformer/environment/path.dsv
+[9.211s] -- Installing: /home/zhizhi/exam2/install/coordinate_transformer/share/coordinate_transformer/local_setup.bash
+[9.211s] -- Installing: /home/zhizhi/exam2/install/coordinate_transformer/share/coordinate_transformer/local_setup.sh
+[9.211s] -- Installing: /home/zhizhi/exam2/install/coordinate_transformer/share/coordinate_transformer/local_setup.zsh
+[9.211s] -- Installing: /home/zhizhi/exam2/install/coordinate_transformer/share/coordinate_transformer/local_setup.dsv
+[9.212s] -- Installing: /home/zhizhi/exam2/install/coordinate_transformer/share/coordinate_transformer/package.dsv
+[9.212s] -- Installing: /home/zhizhi/exam2/install/coordinate_transformer/share/ament_index/resource_index/packages/coordinate_transformer
+[9.212s] -- Installing: /home/zhizhi/exam2/install/coordinate_transformer/share/coordinate_transformer/cmake/coordinate_transformerConfig.cmake
+[9.212s] -- Installing: /home/zhizhi/exam2/install/coordinate_transformer/share/coordinate_transformer/cmake/coordinate_transformerConfig-version.cmake
+[9.212s] -- Installing: /home/zhizhi/exam2/install/coordinate_transformer/share/coordinate_transformer/package.xml
+[9.214s] Invoked command in '/home/zhizhi/exam2/build/coordinate_transformer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zhizhi/exam2/build/coordinate_transformer

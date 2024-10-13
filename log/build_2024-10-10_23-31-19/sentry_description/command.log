@@ -1,0 +1,6 @@
+Invoking command in '/home/zhizhi/exam2/build/sentry_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zhizhi/exam2/src/sentry_description -DCMAKE_INSTALL_PREFIX=/home/zhizhi/exam2/install/sentry_description
+Invoked command in '/home/zhizhi/exam2/build/sentry_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zhizhi/exam2/src/sentry_description -DCMAKE_INSTALL_PREFIX=/home/zhizhi/exam2/install/sentry_description
+Invoking command in '/home/zhizhi/exam2/build/sentry_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zhizhi/exam2/build/sentry_description -- -j20 -l20
+Invoked command in '/home/zhizhi/exam2/build/sentry_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zhizhi/exam2/build/sentry_description -- -j20 -l20
+Invoking command in '/home/zhizhi/exam2/build/sentry_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zhizhi/exam2/build/sentry_description
+Invoked command in '/home/zhizhi/exam2/build/sentry_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zhizhi/exam2/build/sentry_description

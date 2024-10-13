@@ -1,0 +1,9 @@
+/home/zhizhi/exam2/build/sentry_description/CMakeFiles/uninstall.dir
+/home/zhizhi/exam2/build/sentry_description/CMakeFiles/sentry_description_uninstall.dir
+/home/zhizhi/exam2/build/sentry_description/CMakeFiles/test.dir
+/home/zhizhi/exam2/build/sentry_description/CMakeFiles/edit_cache.dir
+/home/zhizhi/exam2/build/sentry_description/CMakeFiles/rebuild_cache.dir
+/home/zhizhi/exam2/build/sentry_description/CMakeFiles/list_install_components.dir
+/home/zhizhi/exam2/build/sentry_description/CMakeFiles/install.dir
+/home/zhizhi/exam2/build/sentry_description/CMakeFiles/install/local.dir
+/home/zhizhi/exam2/build/sentry_description/CMakeFiles/install/strip.dir

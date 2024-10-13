@@ -1,0 +1,8 @@
+source;share/coordinate_transformer/hook/cmake_prefix_path.ps1
+source;share/coordinate_transformer/hook/cmake_prefix_path.dsv
+source;share/coordinate_transformer/hook/cmake_prefix_path.sh
+source;share/coordinate_transformer/local_setup.bash
+source;share/coordinate_transformer/local_setup.dsv
+source;share/coordinate_transformer/local_setup.ps1
+source;share/coordinate_transformer/local_setup.sh
+source;share/coordinate_transformer/local_setup.zsh

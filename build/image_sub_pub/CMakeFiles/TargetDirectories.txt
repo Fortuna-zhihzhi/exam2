@@ -1,0 +1,10 @@
+/home/zhizhi/exam2/build/image_sub_pub/CMakeFiles/uninstall.dir
+/home/zhizhi/exam2/build/image_sub_pub/CMakeFiles/image_sub_pub_uninstall.dir
+/home/zhizhi/exam2/build/image_sub_pub/CMakeFiles/image_sub_pub_node.dir
+/home/zhizhi/exam2/build/image_sub_pub/CMakeFiles/test.dir
+/home/zhizhi/exam2/build/image_sub_pub/CMakeFiles/edit_cache.dir
+/home/zhizhi/exam2/build/image_sub_pub/CMakeFiles/rebuild_cache.dir
+/home/zhizhi/exam2/build/image_sub_pub/CMakeFiles/list_install_components.dir
+/home/zhizhi/exam2/build/image_sub_pub/CMakeFiles/install.dir
+/home/zhizhi/exam2/build/image_sub_pub/CMakeFiles/install/local.dir
+/home/zhizhi/exam2/build/image_sub_pub/CMakeFiles/install/strip.dir

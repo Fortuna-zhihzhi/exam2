@@ -1,0 +1,62 @@
+[0.014s] Invoking command in '/home/zhizhi/exam2/build/sentry_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zhizhi/exam2/src/sentry_description -DCMAKE_INSTALL_PREFIX=/home/zhizhi/exam2/install/sentry_description
+[0.063s] -- The C compiler identification is GNU 11.4.0
+[0.115s] -- The CXX compiler identification is GNU 11.4.0
+[0.120s] -- Detecting C compiler ABI info
+[0.184s] -- Detecting C compiler ABI info - done
+[0.191s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.191s] -- Detecting C compile features
+[0.192s] -- Detecting C compile features - done
+[0.194s] -- Detecting CXX compiler ABI info
+[0.273s] -- Detecting CXX compiler ABI info - done
+[0.281s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.281s] -- Detecting CXX compile features
+[0.282s] -- Detecting CXX compile features - done
+[0.283s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.419s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.492s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.563s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.564s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.565s] -- Added test 'lint_cmake' to check CMake code style
+[0.565s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.566s] -- Added test 'xmllint' to check XML markup files
+[0.567s] -- Configuring done
+[0.568s] -- Generating done
+[0.569s] -- Build files have been written to: /home/zhizhi/exam2/build/sentry_description
+[0.573s] Invoked command in '/home/zhizhi/exam2/build/sentry_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zhizhi/exam2/src/sentry_description -DCMAKE_INSTALL_PREFIX=/home/zhizhi/exam2/install/sentry_description
+[0.574s] Invoking command in '/home/zhizhi/exam2/build/sentry_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zhizhi/exam2/build/sentry_description -- -j20 -l20
+[0.614s] Invoked command in '/home/zhizhi/exam2/build/sentry_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zhizhi/exam2/build/sentry_description -- -j20 -l20
+[0.641s] Invoking command in '/home/zhizhi/exam2/build/sentry_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zhizhi/exam2/build/sentry_description
+[0.649s] -- Install configuration: ""
+[0.649s] -- Installing: /home/zhizhi/exam2/install/sentry_description/share/sentry_description/launch
+[0.649s] -- Installing: /home/zhizhi/exam2/install/sentry_description/share/sentry_description/launch/view_model.rviz
+[0.649s] -- Installing: /home/zhizhi/exam2/install/sentry_description/share/sentry_description/launch/__pycache__
+[0.649s] -- Installing: /home/zhizhi/exam2/install/sentry_description/share/sentry_description/launch/__pycache__/view_model.launch.cpython-310.pyc
+[0.650s] -- Installing: /home/zhizhi/exam2/install/sentry_description/share/sentry_description/launch/view_model.launch.py
+[0.650s] -- Installing: /home/zhizhi/exam2/install/sentry_description/share/sentry_description/meshes
+[0.650s] -- Installing: /home/zhizhi/exam2/install/sentry_description/share/sentry_description/meshes/pitch_link.STL
+[0.650s] -- Installing: /home/zhizhi/exam2/install/sentry_description/share/sentry_description/meshes/lidar_link.STL
+[0.653s] -- Installing: /home/zhizhi/exam2/install/sentry_description/share/sentry_description/meshes/gimbal_odom.STL
+[0.653s] -- Installing: /home/zhizhi/exam2/install/sentry_description/share/sentry_description/meshes/usb_camera_a_link.STL
+[0.653s] -- Installing: /home/zhizhi/exam2/install/sentry_description/share/sentry_description/meshes/shoot_link.STL
+[0.653s] -- Installing: /home/zhizhi/exam2/install/sentry_description/share/sentry_description/meshes/usb_camera_b_link.STL
+[0.653s] -- Installing: /home/zhizhi/exam2/install/sentry_description/share/sentry_description/meshes/base_link.STL
+[0.653s] -- Installing: /home/zhizhi/exam2/install/sentry_description/share/sentry_description/meshes/yaw_link.STL
+[0.654s] -- Installing: /home/zhizhi/exam2/install/sentry_description/share/sentry_description/meshes/camera_link.STL
+[0.654s] -- Installing: /home/zhizhi/exam2/install/sentry_description/share/sentry_description/urdf
+[0.654s] -- Installing: /home/zhizhi/exam2/install/sentry_description/share/sentry_description/urdf/sentry_description.urdf
+[0.654s] -- Installing: /home/zhizhi/exam2/install/sentry_description/share/ament_index/resource_index/package_run_dependencies/sentry_description
+[0.654s] -- Installing: /home/zhizhi/exam2/install/sentry_description/share/ament_index/resource_index/parent_prefix_path/sentry_description
+[0.654s] -- Installing: /home/zhizhi/exam2/install/sentry_description/share/sentry_description/environment/ament_prefix_path.sh
+[0.654s] -- Installing: /home/zhizhi/exam2/install/sentry_description/share/sentry_description/environment/ament_prefix_path.dsv
+[0.654s] -- Installing: /home/zhizhi/exam2/install/sentry_description/share/sentry_description/environment/path.sh
+[0.654s] -- Installing: /home/zhizhi/exam2/install/sentry_description/share/sentry_description/environment/path.dsv
+[0.654s] -- Installing: /home/zhizhi/exam2/install/sentry_description/share/sentry_description/local_setup.bash
+[0.654s] -- Installing: /home/zhizhi/exam2/install/sentry_description/share/sentry_description/local_setup.sh
+[0.655s] -- Installing: /home/zhizhi/exam2/install/sentry_description/share/sentry_description/local_setup.zsh
+[0.655s] -- Installing: /home/zhizhi/exam2/install/sentry_description/share/sentry_description/local_setup.dsv
+[0.655s] -- Installing: /home/zhizhi/exam2/install/sentry_description/share/sentry_description/package.dsv
+[0.655s] -- Installing: /home/zhizhi/exam2/install/sentry_description/share/ament_index/resource_index/packages/sentry_description
+[0.655s] -- Installing: /home/zhizhi/exam2/install/sentry_description/share/sentry_description/cmake/sentry_descriptionConfig.cmake
+[0.655s] -- Installing: /home/zhizhi/exam2/install/sentry_description/share/sentry_description/cmake/sentry_descriptionConfig-version.cmake
+[0.655s] -- Installing: /home/zhizhi/exam2/install/sentry_description/share/sentry_description/package.xml
+[0.657s] Invoked command in '/home/zhizhi/exam2/build/sentry_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zhizhi/exam2/build/sentry_description

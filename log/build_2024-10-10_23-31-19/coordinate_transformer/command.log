@@ -1,0 +1,6 @@
+Invoking command in '/home/zhizhi/exam2/build/coordinate_transformer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zhizhi/exam2/src/coordinate_transformer -DCMAKE_INSTALL_PREFIX=/home/zhizhi/exam2/install/coordinate_transformer
+Invoked command in '/home/zhizhi/exam2/build/coordinate_transformer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zhizhi/exam2/src/coordinate_transformer -DCMAKE_INSTALL_PREFIX=/home/zhizhi/exam2/install/coordinate_transformer
+Invoking command in '/home/zhizhi/exam2/build/coordinate_transformer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zhizhi/exam2/build/coordinate_transformer -- -j20 -l20
+Invoked command in '/home/zhizhi/exam2/build/coordinate_transformer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zhizhi/exam2/build/coordinate_transformer -- -j20 -l20
+Invoking command in '/home/zhizhi/exam2/build/coordinate_transformer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zhizhi/exam2/build/coordinate_transformer
+Invoked command in '/home/zhizhi/exam2/build/coordinate_transformer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zhizhi/exam2/build/coordinate_transformer
